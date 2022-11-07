@@ -32,7 +32,7 @@ public class MathUtilities {
      */
     public Short add(short baseValue, short difference) {
 
-        return null;
+        return (short) (baseValue + difference);
     }
 
     /**
@@ -41,7 +41,8 @@ public class MathUtilities {
      * @return sum of `baseValue` and `difference`
      */
     public Byte add(byte baseValue, byte difference) {
-        return null;
+
+        return (byte) (baseValue + difference);
     }
 
     /**
@@ -90,7 +91,7 @@ public class MathUtilities {
      */
     public Short subtract(short baseValue, short difference) {
 
-        return null;
+        return (short) (baseValue / difference);
     }
 
     /**
@@ -100,7 +101,7 @@ public class MathUtilities {
      */
     public Byte subtract(byte baseValue, byte difference) {
 
-        return null;
+        return (byte) (baseValue - difference);
     }
 
     /**
@@ -150,7 +151,8 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Short divide(short dividend, short divisor) {
-        return null;
+
+        return (short) (dividend / divisor);
     }
 
     /**
@@ -159,7 +161,8 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Byte divide(byte dividend, byte divisor) {
-        return null;
+
+        return (byte) (dividend / divisor);
     }
 
     /**
@@ -209,7 +212,8 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Short multiply(short multiplicand, short multiplier) {
-        return null;
+
+        return (short) (multiplicand * multiplier);
     }
     /**
      * @param multiplicand value to be multiplied
@@ -218,7 +222,7 @@ public class MathUtilities {
      */
     public Byte multiply(byte multiplicand, byte multiplier) {
 
-        return null;
+        return (byte) (multiplicand * multiplier);
     }
 
     /**
